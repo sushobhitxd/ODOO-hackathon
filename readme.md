@@ -19,3 +19,39 @@ Requests Schema (request.js)
 - linked to all three of other schema 
 - dates -> scheduleddate, compeletedDate
 - accessed via '_id'
+
+
+client/
+├── public/                # Static assets
+│   └── vite.svg
+│
+├── src/
+│   ├── assets/            # Images, Global CSS
+│
+│   ├── components/        # Reusable UI Blocks
+│   │   ├── Navbar.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── KanbanBoard.jsx
+│   │   └── ProtectedRoute.jsx
+│
+│   ├── context/           # Global State
+│   │   └── AuthContext.jsx # Stores "Who is logged in?"
+│
+│   ├── pages/             # Full Pages
+│   │   ├── Login.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── EquipmentList.jsx
+│   │   └── CalendarView.jsx
+│
+│   ├── services/          # API Calls (Axios)
+│   │   ├── api.js         # Base setup
+│   │   └── endpoints.js   # All your fetch() calls
+│
+│   ├── App.jsx            # Router Setup
+│   └── main.jsx           # Entry Point
+│
+├── .env.local             # VITE_API_URL=http://localhost:5000
+├── index.html
+├── package.json
+└── vite.config.js
+
