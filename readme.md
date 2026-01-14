@@ -31,17 +31,19 @@ Smart Features: * Smart Buttons: Equipment forms display a button with a badge c
 
 Visual Indicators: Cards display technician avatars and highlight overdue requests in red.
 
-📁 Required Project Structure
-├── public/                 # Client-side interface
-│   ├── index.html
-│   ├── src/
-│   │   ├── components/     # Navbar, Sidebar, KanbanBoard
-│   │   ├── pages/          # Dashboard, EquipmentList, CalendarView
-│   │   ├── services/       # API integration
-│   │   └── App.jsx         # Router setup
-└── server/                 # Backend logic & Database
-    ├── index.js            # Entry point
-    ├── middleware/         # Auth & Role-based access
-    ├── models/             # Equipment, Request, Team, Technician
-    ├── routes/             # API Endpoints
-    └── seed.js             # Initial database seeding
+📁 *Required Project Structure*
+> 
+    ├── public/                 # Client-side interface
+    │   ├── index.html
+    │   ├── src/
+    │   │   ├── components/     # Navbar, Sidebar, KanbanBoard
+    │   │   ├── pages/          # Dashboard, EquipmentList, CalendarView
+    │   │   ├── services/       # API integration
+    │   │   └── App.jsx         # Router setup
+    └── server/                 # Backend logic & Database
+        ├── index.js            # Entry point
+        ├── middleware/         # Auth & Role-based access
+        ├── models/             # Equipment, Request, Team, Technician
+        ├── routes/             # API Endpoints
+        └── seed.js             # Initial database seeding
+
