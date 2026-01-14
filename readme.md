@@ -1,12 +1,12 @@
-**GearGuard: The Ultimate Maintenance Tracker**
+# **GearGuard: The Ultimate Maintenance Tracker**
 
 GearGuard is a maintenance management system designed to track company assets and streamline the lifecycle of repair jobs. By connecting Equipment (assets), specialized Teams, and Maintenance Requests, the system ensures efficient infrastructure management.
 
 **🚀 Key Functional Areas**
 
     Equipment Management: Functions as a central database for assets like machines and computers, tracking serial numbers, warranty info, and physical locations.
-*
-Maintenance Teams*: Supports specialized teams (e.g., IT, Mechanics) where specific technicians are linked to handle assigned tasks.
+
+*Maintenance Teams*: Supports specialized teams (e.g., IT, Mechanics) where specific technicians are linked to handle assigned tasks.
 
 *Request Lifecycle*: Handles Corrective repairs for unplanned breakdowns and Preventive requests for routine checkups.
 
@@ -28,8 +28,8 @@ Calendar View: Displays all preventive maintenance requests and allows managers 
 *Smart Features*: * Smart Buttons: Equipment forms display a button with a badge count of open requests for that specific asset.
 
     Scrap Logic: Moving a request to the "Scrap" stage flags the equipment as no longer usable.
-*
-Visual Indicators*: Cards display technician avatars and highlight overdue requests in red.
+
+*Visual Indicators*: Cards display technician avatars and highlight overdue requests in red.
 
 📁 **Required Project Structure**
 > 
